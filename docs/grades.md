@@ -38,7 +38,7 @@ You can use the `calcgrade.sh` script to calculate your whole grade for the cour
 This script automatically downloads the latest version of your grades repo, inspects the grade you received on each assignment, and calculates your current and final grades for the course.
 
 The `calcgrade.sh` script expects a single argument that corresponds to the UCR netid/CS account of the grade you want to check.
-Below shows the output of the script, calculating the grade for the `aesgu001` account:
+The gif below shows its output, finding the grade of the `aesgu001` account for CS 100:
 
 ![calcgrade.gif](img/calcgrade.gif)
 
