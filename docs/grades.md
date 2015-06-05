@@ -38,40 +38,10 @@ You can use the `calcgrade.sh` script to calculate your whole grade for the cour
 This script automatically downloads the latest version of your grades repo, inspects the grade you received on each assignment, and calculates your current and final grades for the course.
 
 The `calcgrade.sh` script expects a single argument that corresponds to the UCR netid/CS account of the grade you want to check.
-For example, if you want to find the grade of the `examplestudent` account, you would run:
-```
-$ calcgrade.sh examplestudent
-```
-and the output looks something like:
-```
-finding grade for github account examplestudent
-repository exists... fetching ORIGIN
+Below shows the output of the script, calculating the grade for the `aesgu001` account:
 
-===========================================
-    grade        |  assignment
-===========================================
-    --- /   0    |  hw0-vim
-     85 / 100    |  hw1-rshell
-    --- / 100    |  hw2-ls
-     33 / 100    |  hw3-piping
-     54 / 100    |  hw4-signals
-     10 /  10    |  lab0-vim
-    --- /  10    |  lab1-git
-      8 /  10    |  lab2-fork
-    --- /  10    |  lab3-debugging1
-    --- /  10    |  lab4-cp
-    --- /  10    |  lab5-debugging2
-    --- /  10    |  lab6-signal
-    --- /  10    |  lab7-cstring
-    --- /  10    |  lab8-spam
-    --- /  10    |  lab9-rm
-    --- /  50    |  linux
-    --- /   0    |  reading
-===========================================
+![calcgrade.gif](img/calcgrade.gif)
 
-running total =  190 /  320 = 58.64
-overall total =  190 /  550 = 34.29
-```
 Notice that ungraded assignments are marked with a grade of `---` and not included in the running total.
 
 ## cheating
