@@ -14,3 +14,4 @@ It is also good practice to pass in the name of the corresponding syscall as `pe
 It would help you identify which syscall returned an error value.
 
 ## the `checksyscalls.sh` script
+![syscalls.gif](img/syscalls.gif)
