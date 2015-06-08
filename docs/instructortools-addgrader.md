@@ -16,4 +16,4 @@ the repository.
 Make sure you generate the key on the computer that you will grade on.
 
 ## the `instructortools-addgrader.sh` script output
-![addgrader.gif](img/addgrader.gif)
+![addgrader.jpeg]f(img/addgrader.jpeg)
