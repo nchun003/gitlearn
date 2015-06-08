@@ -52,26 +52,17 @@ Don't!
 
 We have access to the full changelog of all the files in your repo.
 For example, if I run the command:
-
 ```
-$ git log hw/hw1-rshell/grade
+$ git log -- [source folder path]/[folder assignment name]/grade
+```
+or  
+```
+$ git log -- hw/hw1-rshell/grade
 ```
 
 Then I will get output similar to:
 
-```
-commit b72f2c09206bb05c93612fea4cfc6c53f718988f
-Author: Mike Izbicki <mike@izbicki.me>
-Date:   Sat Jul 20 07:35:46 2014 -0700
-
-    graded hw1
-
-commit b72f2c09206bb05c93612fea4cfc6c53f718988f
-Author: Mike Izbicki <mike@izbicki.me>
-Date:   Sat Jul 12 11:52:42 2014 -0700
-
-    initial commit
-```
+![gitlog.png](img/gitlog.png)
 
 This tells us who has modified the file and what they've done.
 If you modify your grades, we will catch you.
