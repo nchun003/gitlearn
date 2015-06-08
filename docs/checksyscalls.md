@@ -21,3 +21,6 @@ Simulating a bash shell is one such example.
 This is where the `checksyscalls.sh` script becomes a reliable tool.
 As shown above, this script displays all of the syscalls you used in your source file(s) with the associated line number and the `perror` function for error checking.
 It also displays the total grade penalty that you will receive for every syscall you did not do error checking on.
+This should be an incentive to practice error checking! :)
+This script only takes in `.c/.cpp` files as its arguments.
+If you pass in a directory, the script will recursively call itself for each file inside that directory.
