@@ -6,11 +6,11 @@ This tutorial will cover the basics of instructor tool scripts, but more specifi
 
 <a name="top"/>
 ##Table of Contents
-[1. Setup](#setup)
-[2. Adding Instructors](#addkey)
-[3. Grading](#grading)
-[4. View Grades](#view)
-[5. Additional tools/resources](#resources)
+[1. Setup](#setup)  
+[2. Adding Instructors](#addkey)  
+[3. Grading](#grading)  
+[4. View Grades](#view)  
+[5. Additional tools/resources](#resource)  
 
 <a name="setup"/>
 ###Setup
@@ -44,11 +44,61 @@ Make sure you generate the key on the computer that you will grade on.
 
 <a name="grading"/>
 ###Grade Assignments
+The `gradeassignment-all.sh` script lets an instructor grade an assignment for the whole class.
+Before execution, the script requires the parameter of which assignment to grade.
+In order to grade an assignment you will run:
+```
+$ gradeassignment-all.sh assignmentfolder
+```
+It will pull a local copy of each student's repository and check for the assignments.
+It will open up a vim editor with a table setup as follow with each students name and id:
+```
+---------------------------------------------------------------------------------------------
+ csaccount           | name           | grade/total | grader             | sig | notes (\\n for newline)
+---------------------------------------------------------------------------------------------
+ xxx001              |Edward Snowden  |             |                    | sig | notes (\\n for newline)
+ xxx002              |Steve Jobs      |             |                    | sig | notes (\\n for newline)
+ xxx003              |Bill Gates      |             |                    | sig | notes (\\n for newline)
+ xxx004              |Linus Torvalds  |             |                    | sig | notes (\\n for newline)
+ xxx005              |Ada Lovelace    |             |                    | sig | notes (\\n for newline)
+ ...
+```
+At the end, it will automaically push all grades to each respected repository.
+
+####grading individual assignments
+The `gradeassignment-individual.sh` script allows an instructor to grade an assignment for a specific student, so it required to be ran with two parameters:
+```
+$ gradeassignment-individual.sh githubaccount assignmentfolder
+```
+It will pull a local copy of the student's repository and check for the assignments.
+This feature might be used more often as it would allow the grader to input long feedback for the student.
+It will open up a blank page in the vim editor for grading.
+After the grader is done grading, the script will automatically push the grades to the respected repository.
 
 [Back to table of contents](#top)
 
 <a name="view"/>
 ###View Grades
+In order for instructors to view all the student grades, you would run:
+```
+$ instructortools-viewallgrades.sh
+```
+This script displays registered student names in a table and their overall score.
+For greater detail on an individual student, use [calcgrade.sh](grades.md).
+```
+================================================================================
+ cs account | name                | pnts /  run ( tot) | grade run  | grade tot 
+================================================================================
+xxx001      |Edward Snowden       | 400/500 (705)      |  80.00 B   | 60.00 D
+xxx002      |Steve Jobs           | 100/500 (705)      |  20.00 F   | 0.00 F
+xxx003      |Bill Gates           | 235/500 (705)      |  47.65 F   | 27.65 F
+xxx004      |Linus Torvalds       | 515/500 (705)      |  103.00 A  | 83.00 B
+...
+
+```
+**NOTE:**
+If you use it the first time, the script will need to clone a local repository of each student.  
+In addition, you may have to run the script twice as it may not get the correct values the first time.
 
 [Back to table of contents](#top)
 
