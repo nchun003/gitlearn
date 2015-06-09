@@ -1,3 +1,3 @@
-The following script `analyzedata.sh` is an analysis script to check on each student's homework submissions.
-It will gather data on each student's git log and compile a graph to see how long the student been working.
-Also, it would gather how many lines that each person commited to the assignment.
+The `analyzedata.sh` script is an analysis tool that checks each student's homework submissions.
+It gathers data from his/her `git log` and compiles a graph from it to see how long he/she has been working.
+It also collects a sum of commits he/she made to the assignment.
