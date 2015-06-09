@@ -1,5 +1,5 @@
 #grading the class
-The `gradeassignment-all.sh` script allows an instructor grade an assignment for the whole class.
+The `gradeassignment-all.sh` script lets an instructor grade an assignment for the whole class.
 Before execution, the script requires the parameter of which assignment to grade.
 In order to grade an assignment you will run:
 ```
