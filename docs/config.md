@@ -27,13 +27,13 @@ studentinfo="people/students"
 
 #variables  
 **classname:**  
-This varraible controls the name of the class. 
+This varaible controls the name of the class. 
 It is recommended to change it to the name of the repository.  
 **tmpdir:**  
-This varriable contains the file path that stores the student repositories on local machines and servers.  
+This variable contains the file path that stores the student repositories on local machines and servers.  
 **gradesbranch:**   
-This varriable stores the name of where grades are stored.  
+This variable stores the name of where grades are stored.  
 **instructorinfo:**   
-This varriable stores the path for where the instructor keys are held.  
+This variable stores the path for where the instructor keys are held.  
 **studentinfo:**    
-This varriable stores the path for where student information are held.  
+This variable stores the path for where student information are held.  
