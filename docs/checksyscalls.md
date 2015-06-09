@@ -32,4 +32,4 @@ This script also displays the total grade penalty that you will receive for ever
 This should be an incentive to practice error checking!
 
 The `checksyscalls.sh` script only takes in `.c/.cpp` files as its arguments.
-If you pass in a directory, the script will recursively call itself for each file inside that directory.
+If you pass in a directory, the script will recursively call itself for each file inside that directory. This brings the risk of running this script on non-`.c/.cpp` files.
