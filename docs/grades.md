@@ -37,7 +37,7 @@ If the assignment has not yet been graded, then the `grade` file will contain ju
 You can use the `calcgrade.sh` script to calculate your whole grade for the course.
 This script automatically downloads the latest version of your grades repo, inspects the grade you received on each assignment, and calculates your current and final grades for the course.
 
-The `calcgrade.sh` script expects a single argument that corresponds to the UCR netid/CS account of the grade you want to check, although you do not need to pass in any if you decide to check your own.
+The `calcgrade.sh` script expects a single argument that corresponds to the UCR netid/CS account of the grade you want to check. If no argument is given, `calcgrade.sh` uses the currently logged in user.
 Below is an example of how you would run this script (and the output) if you want to find the grade of a student account:
 
 ![calcgrade.gif](img/calcgrade.gif)

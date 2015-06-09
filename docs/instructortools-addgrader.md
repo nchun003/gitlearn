@@ -7,7 +7,7 @@ On the home directory of the class repository, run:
 $ instructortools-addgrader.sh
 ```
 
-![addgrader.jpg](img/addgrader.jpg)
+![addgrader.png](img/addgrader.png)
 
 **NOTE:**
 It will take time for your system to generate a strong RSA key that will be automatically push to the github repository. 
