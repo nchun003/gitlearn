@@ -14,6 +14,10 @@ It is also good practice to pass in the name of the corresponding syscall as `pe
 It would help you identify which syscall returned an error value.
 
 ## the `checksyscalls.sh` script
+In the following gif, the script is ran with:
+```
+$ checksyscalls.sh directory/filename
+```
 ![checksyscalls.gif](img/checksyscalls.gif)  
 If you are working on huge projects that require you to use multiple syscalls,
 eventually it will become a hassle having to make sure *each and everyone of them* is being error checked.
