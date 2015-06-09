@@ -15,3 +15,12 @@ It would help you identify which syscall returned an error value.
 
 ## the `checksyscalls.sh` script
 ![syscalls.gif](img/syscalls.gif)
+If you are working on huge projects that require you to use multiple syscalls,
+eventually it will become a hassle having to make sure *each and everyone of them* is being error checked.
+Simulating a bash shell is one such example.
+This is where the `checksyscalls.sh` script becomes a reliable tool.
+As shown above, this script displays all of the syscalls you used in your source file(s) with the associated line number and the `perror` function for error checking.
+It also displays the total grade penalty that you will receive for every syscall you did not do error checking on.
+This should be an incentive to practice error checking! :)
+This script only takes in `.c/.cpp` files as its arguments.
+If you pass in a directory, the script will recursively call itself for each file inside that directory.
