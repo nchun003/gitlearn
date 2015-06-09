@@ -26,14 +26,11 @@ studentinfo="people/students"
 ```
 #variables
   
-**classname:**  
-This variable controls the name of the class. 
-It is recommended to change it to the name of the repository.  
-**tmpdir:**  
-This variable contains the file path that stores the student repositories on local machines and servers.  
-**gradesbranch:**   
-This variable stores the name of where grades are stored.  
-**instructorinfo:**   
-This variable stores the path for where the instructor keys are held.  
-**studentinfo:**    
-This variable stores the path for where student information are held.  
+| Variable       | Purpose                                                                                |
+|----------------|----------------------------------------------------------------------------------------|
+| classname      | Controls the name of the class. Recommended to be same as repo name. 		  | 	
+| tmpdir         | Contains file path that stores the student repositories on local machines and servers. |
+| gradesbranch   | Stores the name of where the grades are stored					  |
+| instructorinfo | Stores the path for where intructor keys are held.					  |
+| studentinfo    | Stores the path for where student information is held.				  |	
+
