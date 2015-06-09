@@ -1,8 +1,10 @@
 # Adding a new Instructor key
 
-After setting up gitlearn onto your local repository along with your class files.   
-It is neccessary to add the instructor keys so that student grades can be verfied and that grader tools can be made accessible.  
-Run `instructortools-addgrader.sh` on the home directory of the class repository.  
+After setting up gitlearn onto your local repository along with your class files. It is neccessary to add the instructor keys so that student grades can be verfied and that grader tools can be made accessible.  
+On the home director of the class repository, run: 
+```
+$ instructortools-addgrader.sh
+```
 
 ![addgrader.jpg](img/addgrader.jpg)
 
