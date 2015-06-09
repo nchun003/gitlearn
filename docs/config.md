@@ -1,6 +1,9 @@
 #configuring your classroom
 
-Gitlearn is configurable through the `config.sh` script.  
+Gitlearn is configurable by running:  
+```
+$ config.sh
+```
 The following variable names can be be changed if needed,
 but by default, the script is configured as followed:
 ```
