@@ -1,7 +1,10 @@
 # viewing student grades
 
-The `instructortools-viewallgrades.sh` script allows instructors to view all student grades.
-It displays registered student names in a table and their overall score.
+In order for instructors to view all the student grades, you would run:
+```
+$ instructortools-viewallgrades.sh
+```
+This script displays registered student names in a table and their overall score.
 For greater detail on an individual student, use [calcgrade.sh](grades.md).
 ```
 ================================================================================
