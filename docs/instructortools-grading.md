@@ -1,6 +1,10 @@
 #grading the class
 The `gradeassignment-all.sh` script allows an instructor grade an assignment for the whole class.
 Before execution, the script requires the parameter of which assignment to grade.
+In order to grade an assignment you will run:
+```
+$ gradeassignment-all.sh assignmentname
+```
 It will pull a local copy of each student's repository and check for the assignments.
 It will open up a vim editor with a table setup as follow with each students name and id:
 ```
