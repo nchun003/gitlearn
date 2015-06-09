@@ -28,4 +28,4 @@ $ gradeassignment-individual.sh githubaccount assignmentfolder
 It will pull a local copy of the student's repository and check for the assignments.
 This feature might be used more often as it would allow the grader to input long feedback for the student.
 It will open up a blank page in the vim editor for grading.
-At the end, it will automtically push the grades to the respected repository.
+After the grader is done grading, the script will automatically push the grades to the respected repository.
