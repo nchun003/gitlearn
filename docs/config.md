@@ -1,8 +1,8 @@
 #configuring your classroom
 
 Gitlearn is configurable through the `config.sh` script.  
-The following variable names can be be changed if needed.
-By default, the script is configured as followed:
+The following variable names can be be changed if needed,
+but by default, the script is configured as followed:
 ```
 #######################################
 # configuration (can be modified)
@@ -24,10 +24,10 @@ studentinfo="people/students"
 
 #######################################
 ```
-
-#variables  
+#variables
+  
 **classname:**  
-This varaible controls the name of the class. 
+This variable controls the name of the class. 
 It is recommended to change it to the name of the repository.  
 **tmpdir:**  
 This variable contains the file path that stores the student repositories on local machines and servers.  
