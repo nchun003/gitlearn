@@ -27,7 +27,7 @@ $ echo "export PATH=$(pwd)/gitlearn/scripts:"'$PATH' >> $HOME/.bashrc
 
 
 <a name="addkey"/>
-###Adding Instructor
+###Adding Instructors
 
 After setting up gitlearn onto your local repository along with your class files,
 it is recommended to add the instructor keys so that student grades can be verified for validity.
