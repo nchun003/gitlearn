@@ -62,17 +62,17 @@ $ gradeassignment-all.sh assignmentfolder
 It will pull a local copy of each student's repository and check for the assignments.
 It will open up a vim editor with a table setup as follow with each students name and id:
 ```
----------------------------------------------------------------------------------------------
- csaccount           | name           | grade/total | grader             | sig | notes (\\n for newline)
----------------------------------------------------------------------------------------------
- xxx001              |Edward Snowden  |             |                    | sig | notes (\\n for newline)
- xxx002              |Steve Jobs      |             |                    | sig | notes (\\n for newline)
- xxx003              |Bill Gates      |             |                    | sig | notes (\\n for newline)
- xxx004              |Linus Torvalds  |             |                    | sig | notes (\\n for newline)
- xxx005              |Ada Lovelace    |             |                    | sig | notes (\\n for newline)
+=============================================================================================
+ csaccount           | name           | grade/total | grader             | sig | notes 
+=============================================================================================
+ xxx001              |Edward Snowden  |             |                    | sig | notes 
+ xxx002              |Steve Jobs      |             |                    | sig | notes 
+ xxx003              |Bill Gates      |             |                    | sig | notes 
+ xxx004              |Linus Torvalds  |             |                    | sig | notes 
+ xxx005              |Ada Lovelace    |             |                    | sig | notes 
  ...
 ```
-At the end, it will automaically push all grades to each respected repository.
+The updated grades will get pushed to each respected repository.
 
 ####grading individual assignments
 The `gradeassignment-individual.sh` script allows an instructor to grade an assignment for a specific student, so it required to be ran with two parameters:
