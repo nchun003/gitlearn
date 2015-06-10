@@ -1,8 +1,6 @@
 #Setup gitlearn for your class
 
-This is a general overview on tools that an instructors would use for class.
-
-This tutorial will cover the basics of instructor tool scripts, but more specifically, how to setup your class with **gitlearn**.
+This is a general overview on tools that an instructors would use for class. This tutorial will cover the basics of instructor tool scripts, but more specifically, how to setup your class with **gitlearn**.
 
 ##Table of Contents
 [1. Setup](#setup)  
