@@ -1,10 +1,7 @@
 #Setup gitlearn for your class
 
-This is a general overview on tools that an instructors would use for class.
+This is a general overview on tools that an instructors would use for class. This tutorial will cover the basics of instructor tool scripts, but more specifically, how to setup your class with **gitlearn**.
 
-This tutorial will cover the basics of instructor tool scripts, but more specifically, how to setup your class with **gitlearn**.
-
-<a name="top"/>
 ##Table of Contents
 [1. Setup](#setup)  
 [2. Adding Instructors](#addkey)  
@@ -15,7 +12,19 @@ This tutorial will cover the basics of instructor tool scripts, but more specifi
 <a name="setup"/>
 ###Setup
 
-[Back to table of contents](#top)
+Just clone the repo and add the `scripts` folder to your `PATH` using the following commands:
+```
+$ git clone https://github.com/mikeizbicki/gitlearn
+$ export PATH=$(pwd)/gitlearn/scripts:$PATH
+```
+In order for your `PATH` to remain across sessions you need to update your `~/.bashrc` (or similar):
+```
+$ echo "export PATH=$(pwd)/gitlearn/scripts:"'$PATH' >> $HOME/.bashrc
+```
+
+
+
+
 
 <a name="addkey"/>
 ###Adding Instructor
@@ -40,7 +49,7 @@ Make sure you have your instructors setup on the contributor setting for the rep
 **IMPORTANT:**
 Make sure you generate the key on the computer that you will grade on.
 
-[Back to table of contents](#top)
+
 
 <a name="grading"/>
 ###Grade Assignments
@@ -75,7 +84,7 @@ This feature might be used more often as it would allow the grader to input long
 It will open up a blank page in the vim editor for grading.
 After the grader is done grading, the script will automatically push the grades to the respected repository.
 
-[Back to table of contents](#top)
+
 
 <a name="view"/>
 ###View Grades
@@ -100,9 +109,9 @@ xxx004      |Linus Torvalds       | 515/500 (705)      |  103.00 A  | 83.00 B
 If you use it the first time, the script will need to clone a local repository of each student.  
 In addition, you may have to run the script twice as it may not get the correct values the first time.
 
-[Back to table of contents](#top)
+
 
 <a name="resource"/>
 ###Additional tools/resources
 
-[Back to table of contents](#top)
+
